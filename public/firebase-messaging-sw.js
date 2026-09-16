@@ -20,8 +20,8 @@ messaging.onBackgroundMessage((payload) => {
 
   self.registration.showNotification(title, {
     body,
-    icon: '/icon.png',
-    badge: '/icon.png',
+icon: 'https://unifixapp.onrender.com/icon.png',
+badge: 'https://unifixapp.onrender.com/icon.png',
     data,
     tag: data.type || 'unifix-notification',
     renotify: true,
